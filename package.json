@@ -1,0 +1,26 @@
+{
+    "name": "babel-plugin-host",
+    "version": "2.0.0",
+    "description": "测试更改文件访问的host",
+    "main": "src/index.js",
+    "scripts": {
+        "babel": "rm -rf dist&&babel example --out-dir dist"
+    },
+    "files": [
+        "src"
+    ],
+    "keywords": [
+        "babel",
+        "babel-host"
+    ],
+    "author": "livi",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/cli": "^7.2.3",
+        "@babel/core": "^7.3.3",
+        "@babel/preset-env": "^7.3.1"
+    },
+    "dependencies": {
+        "@babel/types": "^7.3.3"
+    }
+}
